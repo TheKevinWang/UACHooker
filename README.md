@@ -11,3 +11,4 @@ I have informed Microsoft, but they do not consider this a vulnerability.
 *Hooked prompt looks the exact same as the unhooked.*
 # Future
 Currently, only Detours can be used for the hooking. However, Polyhook2 will be supported as well in the future. 
+Currently a POC. A more full fledged version is in the works. 
