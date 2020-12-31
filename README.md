@@ -12,7 +12,7 @@ For an unsigned .exe, the malicious UAC prompt will be indistinguishable from th
 I have informed Microsoft, but they do not consider this a vulnerability.
 ![unsigned exe demo](https://github.com/TheKevinWang/UACHooker/blob/main/unsigned.PNG)
 
-*It's actually C:\Windows\test.exe not C:\Users\Test\Downloads\unetbootin.exe!*
+*It's actually C:\Windows\Temp\test.exe not C:\Users\Test\Downloads\unetbootin.exe!*
 # Future
 Currently, only Detours can be used for the hooking. However, Polyhook2 will be supported as well in the future. 
 Currently a POC, but a full fledged version is in the works. 
