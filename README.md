@@ -1,5 +1,5 @@
-# UACHooker
-Reflective DLL that hooks the AicLaunchAdminProcess function used in the explorer.exe for privilege escalation.
+# UACHookerPOC
+Reflective DLL that hooks the AicLaunchAdminProcess function used in the explorer.exe for privilege escalation. Currently payload is hardcoded as "C:\Windows\Temp\test.exe"
 Whenever the user tries to open powershell or cmd as admin, it will append to the arguments to execute the payload instead. The user can still see the suspicious arguments if "Show more details" is clicked, but who does that?
 ![pwsh demo](https://github.com/TheKevinWang/UACHooker/blob/main/pwsh.PNG)
 Whenever the user tries to open any other program as admin, it will instead rename the payload to have the same name as the target, set the arguments to be the same as the original,
@@ -11,4 +11,4 @@ I have informed Microsoft, but they do not consider this a vulnerability.
 *Hooked prompt looks the exact same as the unhooked.*
 # Future
 Currently, only Detours can be used for the hooking. However, Polyhook2 will be supported as well in the future. 
-Currently a POC. A more full fledged version is in the works. 
+Currently a POC, but a full fledged version is in the works. 
