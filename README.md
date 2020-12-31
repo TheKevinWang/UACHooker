@@ -1,4 +1,4 @@
-# UACHookerPOC
+# UACHooker POC
 Reflective DLL that hooks the AicLaunchAdminProcess function used in the explorer.exe for privilege escalation. Currently payload is hardcoded as "C:\Windows\Temp\test.exe"
 Whenever the user tries to open powershell or cmd as admin, it will append to the arguments to execute the payload instead. The user can still see the suspicious arguments if "Show more details" is clicked, but who does that?
 ![pwsh demo](https://github.com/TheKevinWang/UACHooker/blob/main/pwsh.PNG)
