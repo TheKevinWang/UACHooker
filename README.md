@@ -1,5 +1,5 @@
 # UACHooker POC
-Reflective DLL that hooks the AicLaunchAdminProcess function used in the explorer.exe for privilege escalation. Copy your payload to "C:\Windows\Temp\test.exe" (currently hardcoded). Then run 
+Reflective DLL that hooks the AicLaunchAdminProcess function used in the explorer.exe for privilege escalation by tricking the user. Copy your payload to "C:\Windows\Temp\test.exe" (currently hardcoded). 
 
 `inject.exe (ps -name explorer).id UACHookerDll.dll`
 
