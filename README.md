@@ -16,3 +16,4 @@ I have informed Microsoft, but they do not consider this a vulnerability.
 # Future
 Currently, only Detours can be used for the hooking. However, Polyhook2 will be supported as well in the future. 
 Currently a POC, but a full fledged version is in the works. 
+Also, investigate targets beyond explorer.exe. 
